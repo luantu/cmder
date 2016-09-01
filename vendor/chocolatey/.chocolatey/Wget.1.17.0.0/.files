@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\Wget\wget.jpg" checksum="3E7040494A7F02DBF8C6104B7C98B6D7" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\Wget.nupkg" checksum="2A0DD8AC2CC14AC4B03F63AF68306F8E" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\WgetInstall.zip.txt" checksum="4D707702E885FF10D18C0AAB4D6D25F0" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\ca-bundle.crt" checksum="1128B7DCA86378A2831575C78476AF8E" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\ChocolateyInstall.ps1" checksum="77677E78E88DF4569906791A825E3212" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\COPYING" checksum="D32239BCB673463AB874E80D47FAE504" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe" checksum="FAF645B1D7060A8E0A777F4ACC8C8470" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe.debug" checksum="7BE136F47FEF4CA7598D037AAD88154A" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\wget.html" checksum="044E6F83D65EF195A445A40304242E7E" />
+    <file path="C:\ProgramData\chocolatey\lib\Wget\tools\wget.ini.sample" checksum="321C6C46E38440224BA0197991CB9879" />
+  </files>
+</fileSnapshot>

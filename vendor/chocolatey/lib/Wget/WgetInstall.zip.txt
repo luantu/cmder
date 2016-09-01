@@ -1,0 +1,6 @@
+C:\ProgramData\chocolatey\lib\Wget\tools\ca-bundle.crt
+C:\ProgramData\chocolatey\lib\Wget\tools\COPYING
+C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe
+C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe.debug
+C:\ProgramData\chocolatey\lib\Wget\tools\wget.html
+C:\ProgramData\chocolatey\lib\Wget\tools\wget.ini.sample

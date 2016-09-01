@@ -1,0 +1,7 @@
+[gui]
+　　encoding = utf-8 #代码库统一用urf-8,在git gui中可以正常显示中文
+[i18n]
+　　commitencoding = GB2312 #log编码，window下默认gb2312,声明后发到服务器才不会乱码
+[svn]
+　　pathnameencoding = GB2312 #支持中文路径
+

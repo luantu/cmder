@@ -1,0 +1,800 @@
+ls
+cd E:
+e:
+ls 
+dir
+cd f:
+f:
+cd projects\
+ll
+dir 
+cd ~
+git 
+git bash
+ll
+ping 192.168.23.1
+ping www.baidu.com
+ls
+ll
+ifconfig
+ipconfig
+ifconfig/all
+ipconfig/all
+route -n
+route print
+arp -a
+route print
+arp -a
+ll
+dir
+dir
+ls
+ll
+ifconfig
+ipconfig/all
+exit
+ping www.baidu.com
+平
+ping www.baidu.com
+ping www.baidu.com
+exit
+exit
+cd f: 
+f:
+cd projects\EclipseWork\
+cd rgonc2.0.0\
+ll
+cd rgonc2.0.0\
+ll
+cd rgonc2.0.0\
+ll
+pwd
+ll
+pwd
+ifconfig
+ipconfig 
+mvn
+ll
+pwd
+pwd
+ifconfig
+ipconfig 
+mvn
+cd  d:
+d:
+cd ..
+cd "Program Files (x86)\
+cd Git\
+cd /etc
+cd etc\
+ll
+./myscp.sh
+myscp.sh
+vim myscp.sh 
+ssh wangxiaoyang@172.18.105.19
+pwd
+ifconfig
+ipconfig 
+mvn
+ cd f:
+f:
+cd projects\EclipseWork\
+cd rgonc2.0.0\
+pwd
+ls -al 
+cd OpenSource\
+cd sihook
+ll
+cd ..
+cod
+code
+f:
+pwd
+ls -al 
+cd OpenSource\
+cd sihook
+cod
+code
+d:
+cd ..
+cd vendor\
+cd conemu-maximus5\
+cd ConEmu\
+.\GitShowBranch.cmd 
+.\GitShowBranch.cmd --help
+vim GitShowBranch.cmd 
+ll
+f:
+pwd
+ cd rgonc2.0.0\
+ll
+pwd
+PROMPT 
+ cd rgonc2.0.0\
+pwd
+PROMPT 
+d:
+cd "..\Program Files
+cd "..\Program Files (x86)\
+cd Git\
+ll
+cd ..
+cd MacType\
+git add README.md 
+cd `
+cd ~
+git config --global user.email "luantu@vip.qq.com"
+git config --global user.name "luantu"
+git commit -m "add"
+git push
+exit
+ll
+cd ..
+cod
+code
+f:
+pwd
+ls -al 
+cd OpenSource\
+cd sihook
+cod
+code
+cd vendor\
+cd conemu-maximus5\
+cd ConEmu\
+.\GitShowBranch.cmd 
+.\GitShowBranch.cmd --help
+vim GitShowBranch.cmd 
+ll
+pwd
+ cd rgonc2.0.0\
+set PROMPT
+cd ..\OpenSource\
+cd d:
+d:
+cd "..\..\..\Program Files (x86)\MacType\
+vim gb.txt
+vim updater.ini 
+touch README.md
+vim README.md 
+dri
+ping www.baidu.com
+javac
+dir
+长度。。
+vim cmder\config\aliases 
+f:
+cd ..\EclipseWork\rgonc2.0.0\
+cd controller\opendaylight\md-sal\sal-binding-broker\
+mvnbuilt 
+cd ping\
+cd karaf\target\assembly\
+cd bin\
+ll
+.\start.bat 
+.\karaf.bat 
+cd ..
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-binding-broker\
+mvncoverage 
+ll
+类似
+ls 
+类似
+ls 
+d:
+lll
+cd ..
+cd vendor\
+ll
+dir 
+vim profile.ps1 
+exit
+mvncoverage 
+scp wangxiaoyang@172.18.105.19:/wxy/.vimrc .
+ll
+vim 
+vim a.txt
+vim .vimrc 
+vim .vimrc
+vim a.txt 
+d:
+cd ..
+git add *
+git commit -m "add my cmder"
+git push
+cd ..\OpenSource\sihook
+git remote -v
+git commit -m "add my cmder"
+git push
+vim
+ifconfig 
+ipconfig
+ipconfig /all
+nslookup www.baidu.com
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage 
+mvn clean test
+clear 
+mvn test
+inmemoryF:\projects\EclipseWork\rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastoreF:\projects\EclipseWork\rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore
+exit
+vim a.txt
+vim .vimrc 
+vim .vimrc
+vim a.txt 
+git commit -m "add my cmder"
+git push
+cd ..\OpenSource\sihook
+git remote -v
+git commit -m "add my cmder"
+vim
+ifconfig 
+ipconfig
+ipconfig /all
+nslookup www.baidu.com
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage 
+mvn clean test
+clear 
+mvn test
+inmemoryF:\projects\EclipseWork\rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastoreF:\projects\EclipseWork\rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore
+exit
+git add (
+git commit -mm "update ConEmu"
+git commit -m "update ConEmu"
+cd ..\XX-Net\
+git status
+git pull
+.\start.vbs 
+git log 
+cd rgonc2.0.0\
+svn log
+svn update 
+svn info 
+d:
+cd cmder\
+git add *
+git commit -m "update config "
+git push
+ls -al 
+cd f:
+f:
+cd ..
+cd e:
+e:
+ll
+ll=ls -alF --show-control-chars --color
+ls -alF --show-control-chars --color
+dir
+ls 
+ls 
+e:
+ls
+ls -al 
+ls --help
+ls --help
+ls
+e:
+ls 
+ls -al 
+dir
+dir --help
+dir /h
+dir 
+dir /p
+dir /p /H
+dir /p /h
+dir /pH
+dir /ph
+dir /p /a:h
+dir /p /a
+dir /p /a /q
+dir /p /a /q /w
+dir /p /a /q /d
+dir /p /a /q /b
+dir /p /a /q 
+dir /p /a /q /4
+dir /p /a:-s /q /4
+dir /p /a:-s /q /4 /x
+dir /p /a:-s /q /4 /l
+dir /p /a:-s /q /4 /l /s
+dir /p /a:-s /q /4 /l /n
+dir /p /a:-s /q /4 /l /c
+dir /p /a:-s /q /4 /l /c
+ls
+ll
+dir
+dir /p /a /q /b
+dir /p /a /q 
+exit
+dir /p /a:-s /q /4 /l /n
+dir /p /a:-s /q /4 /l /c
+dir /p /a:-s /q /4 /l /c
+ls
+dir
+dir /p /a /q /b
+dir /p /a /q 
+exit
+e:
+c:
+d:
+cd ..
+ll
+ifconfig 
+ipconfig 
+cd f:
+f:
+echo  $LANG
+cd f:
+f:
+echo  $LANG
+cd e:
+e:
+LANG=zh_CN.GB18030
+chap
+chpg
+chcp
+chcp 932
+chcp 437
+ll
+chcp 936
+ls -al 
+git config --global core.quotepath false
+vim ~/.bashrc
+chcp
+chcp 932
+chcp 437
+chcp 936
+git config --global core.quotepath false
+vim ~/.bashrc
+e:
+ls 
+where ls
+D:\cmder\vendor\git-for-windows\usr\bin\ls.exe -al 
+D:\Cygwin\bin\ls.exe -al 
+ D:\Program Files (x86)\Git\usr\bin\ls.exe -al
+ D:\Program Files\ (x86)\Git\usr\bin\ls.exe -al
+ "D:\Program Files (x86)\Git\usr\bin\ls.exe" -al
+ D:\Cygwin\bin\ls.exe -al --show-control-chars -F --color
+cp -rf  D:\Cygwin\bin\ls.exe D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+$ where ls D:\cmder\vendor\git-for-windows\usr\bin\ls.exe D:\Cygwin\bin\ls.exe D:\Program Files (x86)\Git\usr\bin\ls.exe
+ls
+ls -al 
+cd d:
+ll
+d:
+cd ..
+git add *
+git commit -m "回退对于git-for-windows的修订"
+gitp
+git push
+git config --global push.default matching
+cd ~
+cd HOME
+cd $HOME
+cd f:\projects\EclipseWork\ & f:
+code
+cd ~
+cd c:\users\YOUNG\ & c:
+pwd
+cd c:\users\YOUNG\ & c:
+cd ~
+cd 
+pwd
+wget 
+grep
+cd ..
+Chocolatey
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+chcon.exe install wget 
+choco install wget 
+wget
+where wget 
+where wget 
+choco
+where wget 
+choco
+where choco
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+where choco
+where choco
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+where choco
+choc
+choco
+choco --help
+wget 
+rgonc2.0.0\
+rgonc2.0.0
+cd D:
+d:
+rgonc2.0.0 
+exit
+exit
+exit
+choco --help
+wget 
+code
+cd rgonc2.0.0\
+d:
+cd //
+cd ..
+ll
+vim "aliases
+where choco
+choco
+d:
+cd ..
+vim "aliases
+code
+git clone https://github.com/hzpz/cobertura.git cobertura_hzpz
+vim "aliases
+cd cobertura_hzpz\
+mvn clean install 
+D:\Program Files\TotalCMD64\Totalcmd64.exe --help
+"D:\Program Files\TotalCMD64\Totalcmd64.exe" --help
+mvn clean install -DskipTests -Dcheckstyle.skip
+cd c:\users\YOUNG\ & c:
+cd ~
+cd 
+pwd
+wget 
+grep
+cd ..
+Chocolatey
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+chcon.exe install wget 
+choco install wget 
+where wget 
+where wget 
+choco
+where wget 
+choco
+where choco
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+where choco
+where choco
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+where choco
+choc
+choco
+choco --help
+wget 
+rgonc2.0.0\
+rgonc2.0.0
+cd D:
+d:
+exit
+exit
+choco --help
+wget 
+d:
+cd //
+cd ..
+vim "aliases
+where choco
+wget
+where wget
+cd rgonc2.0.0\
+cd  controller\opendaylight\md-sal\sal-binding-broker\
+mvnbul
+mvnbuild 
+cd sal-inmemory-datastore\
+mvn test
+maven -DgroupId=maven -DartifactId=maven-pmd-plugin -Dtype=plugin -Dversion=5.4.1 plugin:download
+mvn -DgroupId=maven -DartifactId=maven-pmd-plugin -Dtype=plugin -Dversion=5.4.1 plugin:download
+mvncoverage >> coverage.log
+f:
+mvn clean cobertura:cobertura -Dcheckstyle.skip >> coverage.log
+"./gradlew dependencies
+git clone https://github.com/cobertura/cobertura.git
+rgonc2.0.0 
+cd controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage 
+code
+cd rgonc
+svn update 
+cd ping\
+tree
+sshpass
+choco
+choco install sshpass
+gcc
+cd sshpass-1.05\
+./configure
+cd ..
+rm -rf sshpass-1.05
+rm sshpass-1.05.tar.gz 
+rm cobertura-2.1.1-bin.tar.gz 
+dir 
+where ls.exe
+cp D:\cmder\vendor\git-for-windows\usr\bin\ls.exe D:\cmder\vendor\git-for-windows\usr\bin\ls.back
+cp D:\Cygwin\bin\ls.exe  D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+ls -al 
+chown.exe YOUNG:None cobertura_hzpz\ -r
+chown.exe YOUNG:None cobertura_hzpz\ 
+chown.exe None:YOUNG cobertura_hzpz\ 
+chgrp.exe YOUNG:None cobertura_hzpz\
+chown.exe 
+chown.exe --help
+chown YOUNG:YOUNG cobertura_hzpz\
+ll 
+chown.exe cobertura_hzpz\ 
+chown.exe YOUNG cobertura_hzpz\ 
+where ls 
+cp D:\cmder\vendor\git-for-windows\usr\bin\ls.back D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+ls 
+ls --help
+d:
+ll
+vim "aliases
+exit
+ls 
+ls --help
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage >> coverage.log
+d:
+ll
+cd ..
+vim "aliases
+exit
+ubuntu
+cp D:\cmder\vendor\git-for-windows\usr\bin\ls.back D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+ls 
+ls --help
+d:
+ll
+vim "aliases
+exit
+ls 
+ls --help
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage >> coverage.log
+d:
+vim "aliases
+exit
+ubuntu
+cd rgonc2.0.0\
+cd sal-inmemory-datastore\
+mvn site
+mvncoverage --settings .\settings.xml 
+cd ..
+cd sal-binding-broker\
+tree --help
+tree -L 1
+cd src
+cd main\
+cd java\
+ll
+tree
+rgonc2.0.0 
+cd controller\opendaylight\md-sal\sal-binding-broker\
+mvncoverage 
+rgonc2.0.0 
+cd controller\opendaylight\md-sal\sal-binding-broker\
+mvncoverage 
+d:
+cd ..
+cd XX-Net\
+git pull
+start.vbs
+rm XX-Net-3.1.17.zip 
+ll
+ll 
+chown.exe cobertura_hzpz\ 
+chown.exe YOUNG cobertura_hzpz\ 
+where ls 
+cp D:\cmder\vendor\git-for-windows\usr\bin\ls.back D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+ls 
+ls --help
+d:
+ll
+vim "aliases
+exit
+ls 
+ls --help
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage >> coverage.log
+d:
+ll
+cd ..
+vim "aliases
+exit
+ubuntu
+cp D:\cmder\vendor\git-for-windows\usr\bin\ls.back D:\cmder\vendor\git-for-windows\usr\bin\ls.exe
+ls 
+ls --help
+d:
+ll
+vim "aliases
+exit
+ls 
+ls --help
+cd rgonc2.0.0\controller\opendaylight\md-sal\sal-inmemory-datastore\
+mvncoverage >> coverage.log
+d:
+vim "aliases
+exit
+ubuntu
+mvn site
+mvncoverage --settings .\settings.xml 
+tree --help
+tree -L 1
+cd src
+rgonc2.0.0 
+cd controller\opendaylight\md-sal\sal-binding-broker\
+mvncoverage 
+cd rgonc2.0.0\
+cd controller\opendaylight\md-sal\sal-inmemory-datastore\
+cd main\java\org\opendaylight\controller\md\sal\dom\store\impl\
+ipconfig/all
+ping www.baidu.com
+本周进展：     1. Binding-Broker单元测试补充及InMemoryDataStore覆盖率问题研究 (1 day)     2. InMemoryDataStore模块学习并输出inMemory-DataStore反向设计文档初稿,已完成90% (3.5day)     3. 周总结、月总结等（0.5day） 下周计划：     1. 输出inMemory-DataStore反向设计文档初稿 （100%）     2. 完善Binding-Broker反向设计相关TODO章节 目前风险：     InMemoryDataStore模块的单元测试覆盖率无法生成，从目前的结论来看，应该是工具的问题，测试用例没问题。
+netstat
+netstat --help
+netstat -ntp
+netstat -nt
+netstat -n
+cd odl_controller\
+git tag 
+git checkout release/beryllium-sr2
+cd opendaylight\
+cd md-sal\
+cd sal-inmemory-datastore\
+cd src\
+cd main\
+cd java\
+cd org\opendaylight\controller\md\sal\dom\store\impl\
+tree
+cd ..
+cd sal-binding-broker\
+ll
+cd main\
+cd java\
+cd org\opendaylight\controller\md\sal\dom\store\impl\
+tree
+cd sal-binding-broker\
+cd odl_controller\
+git pull
+git tag 
+git checkout release/beryllium-sr2
+cd ..
+cd EclipseWork\
+cd rgonc2.0.0\
+cd controller\opendaylight\md-sal\sal-inmemory-datastore\
+ll
+cd src\test\java\org\opendaylight\controller\md\sal\dom\store\impl\ src\test\java\org\opendaylight\controller\md\sal\dom\store\impl\TestModel.java 
+vim  src\test\java\org\opendaylight\controller\md\sal\dom\store\impl\ src\test\java\org\opendaylight\controller\md\sal\dom\store\impl\TestModel.java 
+ping www.baidu.com
+ping images.baidu.com
+ping shifen.com
+ping google.com
+ping google.co
+ping 4.4.4.4
+ping 8.8.8.8
+ifconfig 
+ipconfig
+help
+type
+set 
+ping 8.8.8.8
+ifconfig 
+ipconfig
+help
+type
+set 
+cd odl_controller\
+git  ta
+git tag 
+git branch -c color.status=false status --short --branch --porcelain 1
+git  -c color.status=false status --short --branch --porcelain 1
+git --help
+git status
+git branch 
+git branch --no-color 2> /dev/null | grep '*' | sed 's/\*//g' | sed 's/ //g' | sed 's/(//g' | sed 's/)//g' | awk -F / '{print $NF}'
+git branch --no-color | grep '*' | sed 's/\*//g' | sed 's/ //g' | sed 's/(//g' | sed 's/)//g' | awk -F / '{print $NF}'
+set 
+cd rgonc2.0.0\
+cd controller\opendaylight\md-sal\
+ll
+cd sal-inmemory-datastore\
+mvn clean
+mvnbuild 
+cd odl_controller\
+cd odl_controller\
+mvnbuild 
+cd odl_controller\
+set
+ConEmuC /export=CON gitbranch
+cd odl_controller\
+ll
+git status
+git tag 
+git checkout release/beryllium-sr2
+git pull
+git branch  -a
+git checkout remotes/origin/stable/beryllium
+git branch 
+git branch -a
+git reset --hard
+git checkout release/lithium-sr3
+git checkout master
+git tag
+git diff --quiet --ignore-submodules HEAD 2>nul
+cd odl_controller\
+cd odl_controller\
+cd odl_controller\
+cd odl_controller\
+cd odl_controller\
+cd odl_
+cd odl_controller\
+cd odl_controller\
+cd odl_controller\
+cd odl_controller\
+cd odl_
+cd odl_controller\
+cd odl_controller\
+git branch --no-color 2>nul | grep '*' | sed 's/*//g' | sed 's/ //g' | sed 's/(//g' | sed 's/)//g' | awk -F / '{print $NF}' | tr -s '/n'
+git branch --no-color 2>nul | grep '*' 
+git branch --no-color 2>nul | grep '*' | tr -s '\n'
+git branch 
+ git branch --no-color
+git branch --no-color
+cd odl_controller\
+git branch 
+git tag
+git checkout release/beryllium-sr2
+git branch --no-color 2>nul | grep '*' 
+git branch --no-color 2>nul | grep '*' | tr -s '\n'
+git branch 
+ git branch --no-color
+git branch --no-color
+cd odl_controller\
+ll
+ifconfig 
+config 
+ipconfig 
+git checkout d41619ae92612e13880271982b06244c41ce3c7d
+gkit checkout --help
+git checkout --help
+git checkout cfc29a3a5ef18def7dbe92fb66c7840345974eda
+git checkout Branch_release/beryllium-sr2
+git 
+git checkout -m release/beryllium-sr2
+git checkout -b release/beryllium-sr2
+git branch 
+git checkout -b release/beryllium-sr1
+git info 
+git log 
+git checkout release/beryllium-sr1
+git head
+git show 
+git gt tit
+git tag 
+git checkout release/lithium-sr3
+git checkout -b Lithium-SR3
+git tag
+git checkout release/beryllium-sr2
+git checkout -b Beryllium-SR2
+\\\
+git checkout master
+git pull
+git checkout Beryllium-SR2
+git branch -a 
+d:
+cd //
+cd ..
+git status
+git add *
+git commit -m "update"
+git push
+where git
+D:\cmder\vendor\git-for-windows\bin\git.exe push
+D:\cmder\vendor\git-for-windows\bin\git.exe push
+cd d:
+d:
+cd ..
+git status
+git add *
+git commit -m "update "
+git push

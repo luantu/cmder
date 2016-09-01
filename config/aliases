@@ -1,0 +1,16 @@
+e.=explorer .
+gl=git log --all --graph --decorate  $*
+ls=ls --show-control-chars --color $*
+ll=ls -al --show-control-chars --color $*
+pwd=cd
+clear=cls
+history=cat %CMDER_ROOT%\config\.history
+unalias=alias /d $1
+vi=vim $*
+mvnbuild=mvn clean install -DskipTests -Dcheckstyle.skip $*
+mvncoverage=mvn clean cobertura:cobertura -Dcheckstyle.skip $*
+code=cd f:\projects\EclipseWork\ & f:
+rgonc2.0.0=cd f:\projects\EclipseWork\rgonc2.0.0\ & f:
+home=cd c:\users\YOUNG\ & c:
+ubuntu=ssh wangxiaoyang@172.24.130.5
+choco=D:\cmder\vendor\chocolatey\bin\choco.exe

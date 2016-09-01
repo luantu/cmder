@@ -1,0 +1,227 @@
+2016-05-26 23:32:52,995 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-26 23:32:52,995 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-26 23:32:53,021 [DEBUG] - XmlConfiguration is now operational
+2016-05-26 23:32:53,196 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\config".
+2016-05-26 23:32:53,415 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\config\chocolatey.config.update"
+ to "C:\ProgramData\chocolatey\config\chocolatey.config".
+2016-05-26 23:32:53,421 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\config\chocolatey.config.update".
+2016-05-26 23:32:53,455 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-26 23:32:53,470 [INFO ] - ============================================================
+2016-05-26 23:32:53,471 [INFO ] - Chocolatey v0.9.9.12
+2016-05-26 23:32:53,473 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-26 23:32:53,474 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2016-05-26 23:32:53,474 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2016-05-26 23:32:53,485 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" install wget
+2016-05-26 23:32:53,486 [DEBUG] - Received arguments: install wget
+2016-05-26 23:32:53,538 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2016-05-26 23:32:53,575 [INFO ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected.
+
+ Do you want to continue?
+2016-05-26 23:32:53,589 [INFO ] -  1) yes
+2016-05-26 23:32:53,590 [INFO ] -  2) no
+2016-05-26 23:33:03,995 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2016-05-26 23:33:04,005 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\YOUNG\AppData\Local\Temp'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|
+Sources='https://chocolatey.org/api/v2/'|Debug='False'|Verbose='False'|
+Force='False'|Noop='False'|HelpRequested='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='wget'|AllVersions='False'|
+SkipPackageInstallProvider='False'|PackageNames='wget'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.10586.0'|
+Information.PlatformName='Windows'|
+Information.ChocolateyVersion='0.9.9.12'|
+Information.ChocolateyProductVersion='0.9.9.12'|
+Information.FullName='choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64Bit='True'|Information.IsInteractive='True'|
+Information.IsUserAdministrator='True'|
+Information.IsProcessElevated='False'|Features.AutoUninstaller='False'|
+Features.CheckSumFiles='True'|Features.FailOnAutoUninstaller='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+NewCommand.AutomaticPackage='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|FeatureCommand.Command='unknown'|
+ConfigCommand.Command='unknown'|PushCommand.TimeoutInSeconds='0'|
+PinCommand.Command='unknown'|
+2016-05-26 23:33:04,029 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2016-05-26 23:33:04,040 [INFO ] - Installing the following packages:
+2016-05-26 23:33:04,086 [INFO ] - wget
+2016-05-26 23:33:04,087 [INFO ] - By installing you accept licenses for the packages.
+2016-05-26 23:33:14,751 [INFO ] - 
+Wget v1.17.0.0
+2016-05-26 23:33:14,920 [DEBUG] - Contents of 'C:\ProgramData\chocolatey\lib\Wget\tools\ChocolateyInstall.ps1':
+2016-05-26 23:33:14,920 [DEBUG] - $packageName = "Wget"
+$url = "https://eternallybored.org/misc/wget/releases/wget-1.17-win32.zip"
+$url64 = "https://eternallybored.org/misc/wget/releases/wget-1.17-win64.zip"
+$unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
+# as per: https://www.gnu.org/prep/ftp.html
+# which point to: http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download
+# I'm getting the binaries from: https://eternallybored.org/misc/wget/
+Install-ChocolateyZipPackage $packageName $url $unzipLocation $url64
+
+2016-05-26 23:33:14,932 [INFO ] - The package Wget wants to run 'ChocolateyInstall.ps1'.
+2016-05-26 23:33:14,934 [INFO ] - Note: If you don't run this script, the installation will fail.
+2016-05-26 23:33:14,934 [INFO ] - Note: To confirm automatically next time, use '-y' or consider setting 
+ 'allowGlobalConfirmation'. Run 'choco feature -h' for more details.
+2016-05-26 23:33:14,938 [INFO ] - Do you want to run the script?
+2016-05-26 23:33:14,939 [INFO ] -  1) yes
+2016-05-26 23:33:14,940 [INFO ] -  2) no
+2016-05-26 23:33:14,964 [INFO ] -  3) print
+2016-05-26 23:33:18,429 [DEBUG] - Calling command ['"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -NoLogo -ExecutionPolicy Bypass -Command "[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\Wget\tools\ChocolateyInstall.ps1' -installArguments '' -packageParameters ''"']
+2016-05-26 23:33:24,400 [INFO ] -  Downloading Wget 64 bit
+2016-05-26 23:33:24,453 [INFO ] -    from 'https://eternallybored.org/misc/wget/releases/wget-1.17-win64.zip'
+2016-05-26 23:34:51,984 [INFO ] -  Extracting C:\Users\YOUNG\AppData\Local\Temp\chocolatey\Wget\1.17.0.0\WgetInstall.zip to C:\ProgramData\chocolatey\lib\Wget\tools...
+2016-05-26 23:34:52,290 [INFO ] -  7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2016-05-26 23:34:52,291 [INFO ] -  Processing archive: C:\Users\YOUNG\AppData\Local\Temp\chocolatey\Wget\1.17.0.0\WgetInstall.zip
+2016-05-26 23:34:52,292 [INFO ] -  Extracting  ca-bundle.crt
+2016-05-26 23:34:52,293 [INFO ] -  Extracting  COPYING
+2016-05-26 23:34:52,294 [INFO ] -  Extracting  wget.exe
+2016-05-26 23:34:52,295 [INFO ] -  Extracting  wget.exe.debug
+2016-05-26 23:34:52,295 [INFO ] -  Extracting  wget.html
+2016-05-26 23:34:52,296 [INFO ] -  Extracting  wget.ini.sample
+2016-05-26 23:34:52,297 [INFO ] -  Everything is Ok
+2016-05-26 23:34:52,297 [INFO ] -  Files: 6
+2016-05-26 23:34:52,298 [INFO ] -  Size:       5381075
+2016-05-26 23:34:52,298 [INFO ] -  Compressed: 2010852
+2016-05-26 23:34:52,377 [INFO ] -  C:\ProgramData\chocolatey\lib\Wget\tools
+2016-05-26 23:34:52,404 [DEBUG] - Command ['"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -NoLogo -ExecutionPolicy Bypass -Command "[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\Wget\tools\ChocolateyInstall.ps1' -installArguments '' -packageParameters ''"'] exited with '0'
+2016-05-26 23:34:52,405 [DEBUG] - Calling command ['"shutdown" /a']
+2016-05-26 23:34:52,475 [DEBUG] - Command ['"shutdown" /a'] exited with '1116'
+2016-05-26 23:34:52,550 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\Wget'
+2016-05-26 23:34:52,554 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\wget.jpg'
+  with checksum '3E7040494A7F02DBF8C6104B7C98B6D7'
+2016-05-26 23:34:52,555 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\Wget.nupkg'
+  with checksum '2A0DD8AC2CC14AC4B03F63AF68306F8E'
+2016-05-26 23:34:52,556 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\WgetInstall.zip.txt'
+  with checksum '4D707702E885FF10D18C0AAB4D6D25F0'
+2016-05-26 23:34:52,557 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\ca-bundle.crt'
+  with checksum '1128B7DCA86378A2831575C78476AF8E'
+2016-05-26 23:34:52,558 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\ChocolateyInstall.ps1'
+  with checksum '77677E78E88DF4569906791A825E3212'
+2016-05-26 23:34:52,558 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\COPYING'
+  with checksum 'D32239BCB673463AB874E80D47FAE504'
+2016-05-26 23:34:52,576 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe'
+  with checksum 'FAF645B1D7060A8E0A777F4ACC8C8470'
+2016-05-26 23:34:52,587 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe.debug'
+  with checksum '7BE136F47FEF4CA7598D037AAD88154A'
+2016-05-26 23:34:52,588 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\wget.html'
+  with checksum '044E6F83D65EF195A445A40304242E7E'
+2016-05-26 23:34:52,588 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\Wget\tools\wget.ini.sample'
+  with checksum '321C6C46E38440224BA0197991CB9879'
+2016-05-26 23:34:52,601 [DEBUG] - Calling command ['"C:\ProgramData\chocolatey\tools\shimgen.exe" --path="..\\lib\Wget\tools\wget.exe" --output="C:\ProgramData\chocolatey\bin\wget.exe"  --iconpath="C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe"']
+2016-05-26 23:34:52,731 [DEBUG] -  [ShimGen] Could not extract icon from associated program. Using default. Error:
+2016-05-26 23:34:52,732 [DEBUG] -  [ShimGen]   Selected Icon is invalid
+2016-05-26 23:34:53,031 [DEBUG] -  [ShimGen] Microsoft (R) Visual C# Compiler version 4.6.1038.0
+2016-05-26 23:34:53,031 [DEBUG] -  [ShimGen] for C# 5
+2016-05-26 23:34:53,032 [DEBUG] -  [ShimGen] Copyright (C) Microsoft Corporation. All rights reserved.
+2016-05-26 23:34:53,032 [DEBUG] -  [ShimGen] This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+2016-05-26 23:34:53,034 [DEBUG] -  [ShimGen] ShimGen has successfully created 'C:\ProgramData\chocolatey\bin\wget.exe'
+2016-05-26 23:34:53,087 [DEBUG] - Command ['"C:\ProgramData\chocolatey\tools\shimgen.exe" --path="..\\lib\Wget\tools\wget.exe" --output="C:\ProgramData\chocolatey\bin\wget.exe"  --iconpath="C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe"'] exited with '0'
+2016-05-26 23:34:53,088 [INFO ] -  ShimGen has successfully created a shim for wget.exe
+2016-05-26 23:34:53,090 [DEBUG] -   Created: C:\ProgramData\chocolatey\bin\wget.exe
+  Targeting: C:\ProgramData\chocolatey\lib\Wget\tools\wget.exe
+  IsGui:False
+
+2016-05-26 23:34:53,091 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\extensions".
+2016-05-26 23:34:53,094 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey".
+2016-05-26 23:34:53,095 [DEBUG] - Adding 'Hidden' attribute(s) to 'C:\ProgramData\chocolatey\.chocolatey'.
+2016-05-26 23:34:53,096 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0".
+2016-05-26 23:34:53,111 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0\.files.update"
+ to "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0\.files".
+2016-05-26 23:34:53,112 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0\.files.update".
+2016-05-26 23:34:53,112 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0\.sxs".
+2016-05-26 23:34:53,114 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\Wget.1.17.0.0\.pin".
+2016-05-26 23:34:53,115 [INFO ] -  The install of wget was successful.
+2016-05-26 23:34:53,122 [WARN ] - 
+Chocolatey installed 1/1 package(s). 0 package(s) failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2016-05-26 23:34:53,123 [DEBUG] - Exiting with 0
+2016-05-26 23:39:22,889 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-26 23:39:22,889 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-26 23:39:22,910 [DEBUG] - XmlConfiguration is now operational
+2016-05-26 23:39:23,125 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\config\chocolatey.config.update".
+2016-05-26 23:39:23,151 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-26 23:39:23,158 [INFO ] - ============================================================
+2016-05-26 23:39:23,160 [INFO ] - Chocolatey v0.9.9.12
+2016-05-26 23:39:23,165 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-26 23:39:23,166 [DEBUG] - Attempting to delete file "D:/cmder/vendor/chocolatey/choco.exe.old".
+2016-05-26 23:39:23,166 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\choco.exe.old".
+2016-05-26 23:39:23,172 [DEBUG] - Command line: "D:\cmder\vendor\chocolatey\choco.exe" 
+2016-05-26 23:39:23,173 [DEBUG] - Received arguments: 
+2016-05-26 23:39:23,209 [DEBUG] - Exiting with 1
+2016-05-27 09:00:14,746 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-27 09:00:14,746 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-27 09:00:14,767 [DEBUG] - XmlConfiguration is now operational
+2016-05-27 09:00:14,999 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\config\chocolatey.config.update".
+2016-05-27 09:00:15,020 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-27 09:00:15,029 [INFO ] - ============================================================
+2016-05-27 09:00:15,031 [INFO ] - Chocolatey v0.9.9.12
+2016-05-27 09:00:15,035 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-27 09:00:15,036 [DEBUG] - Attempting to delete file "D:/cmder/vendor/chocolatey/choco.exe.old".
+2016-05-27 09:00:15,036 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\choco.exe.old".
+2016-05-27 09:00:15,046 [DEBUG] - Command line: "D:\cmder\vendor\chocolatey\choco.exe"
+2016-05-27 09:00:15,046 [DEBUG] - Received arguments: 
+2016-05-27 09:00:15,084 [DEBUG] - Exiting with 1
+2016-05-27 09:01:37,833 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-27 09:01:37,833 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-27 09:01:37,856 [DEBUG] - XmlConfiguration is now operational
+2016-05-27 09:01:38,097 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\config\chocolatey.config.update".
+2016-05-27 09:01:38,119 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-27 09:01:38,127 [INFO ] - ============================================================
+2016-05-27 09:01:38,129 [INFO ] - Chocolatey v0.9.9.12
+2016-05-27 09:01:38,135 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-27 09:01:38,136 [DEBUG] - Attempting to delete file "D:/cmder/vendor/chocolatey/choco.exe.old".
+2016-05-27 09:01:38,136 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\choco.exe.old".
+2016-05-27 09:01:38,143 [DEBUG] - Command line: "D:\cmder\vendor\chocolatey\choco.exe"
+2016-05-27 09:01:38,144 [DEBUG] - Received arguments: 
+2016-05-27 09:01:38,193 [DEBUG] - Exiting with 1
+2016-05-30 17:34:44,096 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-30 17:34:44,096 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-30 17:34:44,129 [DEBUG] - XmlConfiguration is now operational
+2016-05-30 17:34:44,484 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\config\chocolatey.config.update".
+2016-05-30 17:34:44,615 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-30 17:34:44,627 [INFO ] - ============================================================
+2016-05-30 17:34:44,631 [INFO ] - Chocolatey v0.9.9.12
+2016-05-30 17:34:46,016 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-30 17:34:46,017 [DEBUG] - Attempting to delete file "D:/cmder/vendor/chocolatey/choco.exe.old".
+2016-05-30 17:34:46,018 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\choco.exe.old".
+2016-05-30 17:34:46,039 [DEBUG] - Command line: "D:\cmder\vendor\chocolatey\choco.exe"
+2016-05-30 17:34:46,040 [DEBUG] - Received arguments: 
+2016-05-30 17:34:46,113 [DEBUG] - Exiting with 1
+2016-05-30 17:34:58,029 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-30 17:34:58,029 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.9.9.12, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2016-05-30 17:34:58,054 [DEBUG] - XmlConfiguration is now operational
+2016-05-30 17:34:58,329 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\config\chocolatey.config.update".
+2016-05-30 17:34:58,357 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2016-05-30 17:34:58,368 [INFO ] - ============================================================
+2016-05-30 17:34:58,370 [INFO ] - Chocolatey v0.9.9.12
+2016-05-30 17:34:58,374 [DEBUG] - Chocolatey is running on Windows v 10.0.10586.0
+2016-05-30 17:34:58,375 [DEBUG] - Attempting to delete file "D:/cmder/vendor/chocolatey/choco.exe.old".
+2016-05-30 17:34:58,375 [DEBUG] - Attempting to delete file "D:\cmder\vendor\chocolatey\choco.exe.old".
+2016-05-30 17:34:58,384 [DEBUG] - Command line: "D:\cmder\vendor\chocolatey\choco.exe"
+2016-05-30 17:34:58,385 [DEBUG] - Received arguments: 
+2016-05-30 17:34:58,454 [DEBUG] - Exiting with 1

@@ -1,0 +1,12 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=dir /p /a /q /b
+ll=dir /p /a /q 
+pwd=cd
+clear=cls
+history=cat %CMDER_ROOT%\config\.history
+unalias=alias /d $1
+vi=vim $*
+mvnbuild=mvn clean install -DskipTests -Dcheckstyle.skip
+mvncoverage=mvn clean cobertura:cobertura -Dcheckstyle.skip
+code=cd f:\projects\EclipseWork\
